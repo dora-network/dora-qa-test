@@ -2,10 +2,11 @@ package redis
 
 import (
 	"context"
-	"dora-dev-test/data"
 	"encoding/json"
 	"fmt"
 	"log"
+
+	"dora-dev-test/data"
 
 	"github.com/redis/go-redis/v9"
 )

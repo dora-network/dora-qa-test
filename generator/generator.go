@@ -2,9 +2,10 @@ package generator
 
 import (
 	"context"
-	"dora-dev-test/data"
 	"math/rand"
 	"time"
+
+	"dora-dev-test/data"
 )
 
 func GenerateTick(ctx context.Context, tickCh chan<- data.Tick) {

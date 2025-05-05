@@ -2,16 +2,17 @@ package main
 
 import (
 	"context"
+	"fmt"
+	"log"
+	"net"
+	"os"
+
 	"dora-dev-test/consumer"
 	"dora-dev-test/data"
 	"dora-dev-test/generator"
 	"dora-dev-test/publisher"
 	"dora-dev-test/redis"
 	"dora-dev-test/service"
-	"fmt"
-	"log"
-	"net"
-	"os"
 
 	api "dora-dev-test/api/v1"
 

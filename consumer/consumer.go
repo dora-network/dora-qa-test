@@ -2,12 +2,13 @@ package consumer
 
 import (
 	"context"
-	"dora-dev-test/data"
-	"dora-dev-test/datastore"
 	"encoding/json"
 	"errors"
 	"log"
 	"time"
+
+	"dora-dev-test/data"
+	"dora-dev-test/datastore"
 
 	"github.com/twmb/franz-go/pkg/kgo"
 )
